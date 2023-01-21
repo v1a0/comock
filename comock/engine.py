@@ -1,8 +1,8 @@
 import typing
 from functools import wraps
 
-from comock import MockObjTag, MockObjTagList
-from comock import MockValue as mv
+from .tag import MockObjTag, MockObjTagList
+from .misc import MockValue as mv
 
 
 class MockerEngine:

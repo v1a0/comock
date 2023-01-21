@@ -1,4 +1,4 @@
-from comock import MockObjTag, MockObjTagList
+from .tag import MockObjTag, MockObjTagList
 
 
 class MockerConfig:

@@ -1,6 +1,4 @@
-from comock import Mocker
-
-mock = Mocker()
+from comock import mock
 
 
 class DescartesCoordinate:
